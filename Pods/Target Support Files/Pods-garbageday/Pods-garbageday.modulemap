@@ -1,0 +1,6 @@
+framework module Pods_garbageday {
+  umbrella header "Pods-garbageday-umbrella.h"
+
+  export *
+  module * { export * }
+}

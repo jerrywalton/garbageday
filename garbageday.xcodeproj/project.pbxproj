@@ -13,9 +13,22 @@
 		5606064925C7AC4200878AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5606064725C7AC4200878AD8 /* Main.storyboard */; };
 		5606064B25C7AC4500878AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5606064A25C7AC4500878AD8 /* Assets.xcassets */; };
 		5606064E25C7AC4500878AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5606064C25C7AC4500878AD8 /* LaunchScreen.storyboard */; };
+		5606065725C88B6300878AD8 /* DayOfTheWeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606065625C88B6300878AD8 /* DayOfTheWeekCell.swift */; };
+		5606065A25C90D4A00878AD8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606065925C90D4A00878AD8 /* SettingsVC.swift */; };
+		5606065D25C910FD00878AD8 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606065C25C910FD00878AD8 /* AppModel.swift */; };
+		5606066325C9F11C00878AD8 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606066225C9F11C00878AD8 /* NotificationCell.swift */; };
+		5606066625C9F16D00878AD8 /* EnableNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606066525C9F16D00878AD8 /* EnableNotificationCell.swift */; };
+		5606066925CA02D900878AD8 /* GarbageDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606066825CA02D900878AD8 /* GarbageDayVC.swift */; };
+		5606066C25CA02F000878AD8 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606066B25CA02F000878AD8 /* NotificationVC.swift */; };
+		5606067325CA57DC00878AD8 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606067225CA57DC00878AD8 /* SettingCell.swift */; };
+		5665AF1425CD218B0034C38C /* TimePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665AF1325CD218B0034C38C /* TimePickerCell.swift */; };
+		5665AF2225D8B73F0034C38C /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665AF2125D8B73E0034C38C /* LocalNotification.swift */; };
+		836C28AF87C797697F97043F /* Pods_garbageday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C90D8993C648D9E29B92100 /* Pods_garbageday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B46B58A7821D0D0F8EB5F1 /* Pods-garbageday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-garbageday.debug.xcconfig"; path = "Target Support Files/Pods-garbageday/Pods-garbageday.debug.xcconfig"; sourceTree = "<group>"; };
+		4C90D8993C648D9E29B92100 /* Pods_garbageday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_garbageday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5606063E25C7AC4200878AD8 /* garbageday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = garbageday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5606064125C7AC4200878AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5606064325C7AC4200878AD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		5606064A25C7AC4500878AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5606064D25C7AC4500878AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5606064F25C7AC4500878AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5606065625C88B6300878AD8 /* DayOfTheWeekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheWeekCell.swift; sourceTree = "<group>"; };
+		5606065925C90D4A00878AD8 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		5606065C25C910FD00878AD8 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		5606066225C9F11C00878AD8 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		5606066525C9F16D00878AD8 /* EnableNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotificationCell.swift; sourceTree = "<group>"; };
+		5606066825CA02D900878AD8 /* GarbageDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbageDayVC.swift; sourceTree = "<group>"; };
+		5606066B25CA02F000878AD8 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		5606067225CA57DC00878AD8 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		5665AF1325CD218B0034C38C /* TimePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerCell.swift; sourceTree = "<group>"; };
+		5665AF2125D8B73E0034C38C /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		C199ADF6E2DB48A7B599A5C8 /* Pods-garbageday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-garbageday.release.xcconfig"; path = "Target Support Files/Pods-garbageday/Pods-garbageday.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836C28AF87C797697F97043F /* Pods_garbageday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12757A2D24FA398E9335F1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C90D8993C648D9E29B92100 /* Pods_garbageday.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D66123298044A00FC47873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B46B58A7821D0D0F8EB5F1 /* Pods-garbageday.debug.xcconfig */,
+				C199ADF6E2DB48A7B599A5C8 /* Pods-garbageday.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5606063525C7AC4200878AD8 = {
 			isa = PBXGroup;
 			children = (
 				5606064025C7AC4200878AD8 /* garbageday */,
 				5606063F25C7AC4200878AD8 /* Products */,
+				22D66123298044A00FC47873 /* Pods */,
+				12757A2D24FA398E9335F1A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +102,47 @@
 			children = (
 				5606064125C7AC4200878AD8 /* AppDelegate.swift */,
 				5606064325C7AC4200878AD8 /* SceneDelegate.swift */,
-				5606064525C7AC4200878AD8 /* ViewController.swift */,
 				5606064725C7AC4200878AD8 /* Main.storyboard */,
 				5606064A25C7AC4500878AD8 /* Assets.xcassets */,
 				5606064C25C7AC4500878AD8 /* LaunchScreen.storyboard */,
 				5606064F25C7AC4500878AD8 /* Info.plist */,
+				5606066125C9F0D000878AD8 /* Models */,
+				5606066025C9F0B100878AD8 /* ViewControllers */,
+				5606065F25C9F0A000878AD8 /* Views */,
 			);
 			path = garbageday;
+			sourceTree = "<group>";
+		};
+		5606065F25C9F0A000878AD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5606065625C88B6300878AD8 /* DayOfTheWeekCell.swift */,
+				5606066225C9F11C00878AD8 /* NotificationCell.swift */,
+				5606066525C9F16D00878AD8 /* EnableNotificationCell.swift */,
+				5606067225CA57DC00878AD8 /* SettingCell.swift */,
+				5665AF1325CD218B0034C38C /* TimePickerCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5606066025C9F0B100878AD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5606065925C90D4A00878AD8 /* SettingsVC.swift */,
+				5606064525C7AC4200878AD8 /* ViewController.swift */,
+				5606066825CA02D900878AD8 /* GarbageDayVC.swift */,
+				5606066B25CA02F000878AD8 /* NotificationVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5606066125C9F0D000878AD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5606065C25C910FD00878AD8 /* AppModel.swift */,
+				5665AF2125D8B73E0034C38C /* LocalNotification.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5606065225C7AC4500878AD8 /* Build configuration list for PBXNativeTarget "garbageday" */;
 			buildPhases = (
+				2602EEC58FB29C178E2BECB4 /* [CP] Check Pods Manifest.lock */,
 				5606063A25C7AC4200878AD8 /* Sources */,
 				5606063B25C7AC4200878AD8 /* Frameworks */,
 				5606063C25C7AC4200878AD8 /* Resources */,
@@ -132,14 +211,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2602EEC58FB29C178E2BECB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-garbageday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5606063A25C7AC4200878AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5665AF1425CD218B0034C38C /* TimePickerCell.swift in Sources */,
+				5665AF2225D8B73F0034C38C /* LocalNotification.swift in Sources */,
 				5606064625C7AC4200878AD8 /* ViewController.swift in Sources */,
+				5606066C25CA02F000878AD8 /* NotificationVC.swift in Sources */,
+				5606065D25C910FD00878AD8 /* AppModel.swift in Sources */,
+				5606065725C88B6300878AD8 /* DayOfTheWeekCell.swift in Sources */,
+				5606067325CA57DC00878AD8 /* SettingCell.swift in Sources */,
+				5606066925CA02D900878AD8 /* GarbageDayVC.swift in Sources */,
 				5606064225C7AC4200878AD8 /* AppDelegate.swift in Sources */,
+				5606066625C9F16D00878AD8 /* EnableNotificationCell.swift in Sources */,
 				5606064425C7AC4200878AD8 /* SceneDelegate.swift in Sources */,
+				5606065A25C90D4A00878AD8 /* SettingsVC.swift in Sources */,
+				5606066325C9F11C00878AD8 /* NotificationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,10 +397,12 @@
 		};
 		5606065325C7AC4500878AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B46B58A7821D0D0F8EB5F1 /* Pods-garbageday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D3S73Z745;
 				INFOPLIST_FILE = garbageday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +417,12 @@
 		};
 		5606065425C7AC4500878AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C199ADF6E2DB48A7B599A5C8 /* Pods-garbageday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D3S73Z745;
 				INFOPLIST_FILE = garbageday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
